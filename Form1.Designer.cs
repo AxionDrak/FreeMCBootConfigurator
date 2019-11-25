@@ -220,9 +220,10 @@
             // 
             // doaçõesToolStripMenuItem
             // 
+            this.doaçõesToolStripMenuItem.Image = global::FreeMCBootConfigurator.Properties.Resources.paypal;
             this.doaçõesToolStripMenuItem.Name = "doaçõesToolStripMenuItem";
             this.doaçõesToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
-            this.doaçõesToolStripMenuItem.Text = "Doações";
+            this.doaçõesToolStripMenuItem.Text = "Doações (PayPal)";
             // 
             // toolStripMenuItem1
             // 
