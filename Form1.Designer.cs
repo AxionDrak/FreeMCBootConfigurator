@@ -35,9 +35,9 @@
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
-            this.doaçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiDonationsPayPal = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -45,9 +45,6 @@
             this.cbQuickstart = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tpGeral = new System.Windows.Forms.TabPage();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.nupPadDelay = new System.Windows.Forms.NumericUpDown();
             this.cbDebug = new System.Windows.Forms.ComboBox();
             this.cbFastBoot = new System.Windows.Forms.ComboBox();
@@ -55,13 +52,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tpOSDSettings = new System.Windows.Forms.TabPage();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.cbGoToBrowser = new System.Windows.Forms.ComboBox();
             this.cbSkipSonyLogo = new System.Windows.Forms.ComboBox();
             this.cbSkipDiscBoot = new System.Windows.Forms.ComboBox();
@@ -72,10 +62,6 @@
             this.cbSkipMC = new System.Windows.Forms.ComboBox();
             this.cbVMode = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.nupVersionX = new System.Windows.Forms.NumericUpDown();
@@ -84,14 +70,8 @@
             this.nupEnterX = new System.Windows.Forms.NumericUpDown();
             this.nupEnterY = new System.Windows.Forms.NumericUpDown();
             this.label20 = new System.Windows.Forms.Label();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.nupMenuX = new System.Windows.Forms.NumericUpDown();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.nupCursorAcceleration = new System.Windows.Forms.NumericUpDown();
             this.nupCursorVelocity = new System.Windows.Forms.NumericUpDown();
             this.nupMenuY = new System.Windows.Forms.NumericUpDown();
@@ -120,6 +100,11 @@
             this.cbESRPath1 = new System.Windows.Forms.ComboBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.tpLKSettings = new System.Windows.Forms.TabPage();
+            this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnSaveCNF = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -128,34 +113,14 @@
             this.tabControl1.SuspendLayout();
             this.tpQuickstart.SuspendLayout();
             this.tpGeral.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupPadDelay)).BeginInit();
             this.tpOSDSettings.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupVersionX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupVersionY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupEnterX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupEnterY)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupMenuX)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupCursorAcceleration)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupCursorVelocity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupMenuY)).BeginInit();
@@ -163,6 +128,8 @@
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.tpLKSettings.SuspendLayout();
+            this.tabControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -182,15 +149,15 @@
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiExit});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
-            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.arquivoToolStripMenuItem.Text = "Arquivo";
+            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.arquivoToolStripMenuItem.Text = "File";
             // 
             // tsmiExit
             // 
             this.tsmiExit.Name = "tsmiExit";
             this.tsmiExit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
             this.tsmiExit.Size = new System.Drawing.Size(135, 22);
-            this.tsmiExit.Text = "Sair";
+            this.tsmiExit.Text = "Exit";
             this.tsmiExit.Click += new System.EventHandler(this.TsmiExit_Click);
             // 
             // ajudaToolStripMenuItem
@@ -198,43 +165,42 @@
             this.ajudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiHelp,
             this.toolStripMenuItem2,
-            this.doaçõesToolStripMenuItem,
+            this.tsmiDonationsPayPal,
             this.toolStripMenuItem1,
-            this.sobreToolStripMenuItem});
+            this.tsmiAbout});
             this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
-            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.ajudaToolStripMenuItem.Text = "Ajuda";
+            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.ajudaToolStripMenuItem.Text = "Help";
             // 
             // tsmiHelp
             // 
-            this.tsmiHelp.Image = global::FreeMCBootConfigurator.Properties.Resources.question;
             this.tsmiHelp.Name = "tsmiHelp";
-            this.tsmiHelp.Size = new System.Drawing.Size(254, 22);
-            this.tsmiHelp.Text = "Exibir Ajuda";
+            this.tsmiHelp.Size = new System.Drawing.Size(245, 22);
+            this.tsmiHelp.Text = "Show Help";
             this.tsmiHelp.Click += new System.EventHandler(this.TsmiHelp_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(251, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(242, 6);
             // 
-            // doaçõesToolStripMenuItem
+            // tsmiDonationsPayPal
             // 
-            this.doaçõesToolStripMenuItem.Image = global::FreeMCBootConfigurator.Properties.Resources.paypal;
-            this.doaçõesToolStripMenuItem.Name = "doaçõesToolStripMenuItem";
-            this.doaçõesToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
-            this.doaçõesToolStripMenuItem.Text = "Doações (PayPal)";
+            this.tsmiDonationsPayPal.Name = "tsmiDonationsPayPal";
+            this.tsmiDonationsPayPal.Size = new System.Drawing.Size(245, 22);
+            this.tsmiDonationsPayPal.Text = "Donations (PayPal)";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(251, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(242, 6);
             // 
-            // sobreToolStripMenuItem
+            // tsmiAbout
             // 
-            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
-            this.sobreToolStripMenuItem.Text = "Sobre o FreeMCBoot Configurator";
+            this.tsmiAbout.Name = "tsmiAbout";
+            this.tsmiAbout.Size = new System.Drawing.Size(245, 22);
+            this.tsmiAbout.Text = "About FreeMcBoot Configurator";
+            this.tsmiAbout.Click += new System.EventHandler(this.TsmiAbout_Click);
             // 
             // statusStrip1
             // 
@@ -258,6 +224,7 @@
             this.tabControl1.Controls.Add(this.tpGeral);
             this.tabControl1.Controls.Add(this.tpOSDSettings);
             this.tabControl1.Controls.Add(this.tpESRPath);
+            this.tabControl1.Controls.Add(this.tpLKSettings);
             this.tabControl1.Location = new System.Drawing.Point(12, 147);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -298,9 +265,6 @@
             // 
             // tpGeral
             // 
-            this.tpGeral.Controls.Add(this.pictureBox16);
-            this.tpGeral.Controls.Add(this.pictureBox15);
-            this.tpGeral.Controls.Add(this.pictureBox14);
             this.tpGeral.Controls.Add(this.nupPadDelay);
             this.tpGeral.Controls.Add(this.cbDebug);
             this.tpGeral.Controls.Add(this.cbFastBoot);
@@ -313,36 +277,6 @@
             this.tpGeral.TabIndex = 2;
             this.tpGeral.Text = "General";
             this.tpGeral.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox16.Location = new System.Drawing.Point(164, 88);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 8;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox15.Location = new System.Drawing.Point(164, 61);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 7;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox14.Location = new System.Drawing.Point(164, 34);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 6;
-            this.pictureBox14.TabStop = false;
             // 
             // nupPadDelay
             // 
@@ -416,13 +350,6 @@
             // 
             // tpOSDSettings
             // 
-            this.tpOSDSettings.Controls.Add(this.pictureBox13);
-            this.tpOSDSettings.Controls.Add(this.pictureBox12);
-            this.tpOSDSettings.Controls.Add(this.pictureBox11);
-            this.tpOSDSettings.Controls.Add(this.pictureBox10);
-            this.tpOSDSettings.Controls.Add(this.pictureBox9);
-            this.tpOSDSettings.Controls.Add(this.pictureBox8);
-            this.tpOSDSettings.Controls.Add(this.pictureBox7);
             this.tpOSDSettings.Controls.Add(this.cbGoToBrowser);
             this.tpOSDSettings.Controls.Add(this.cbSkipSonyLogo);
             this.tpOSDSettings.Controls.Add(this.cbSkipDiscBoot);
@@ -445,76 +372,6 @@
             this.tpOSDSettings.TabIndex = 0;
             this.tpOSDSettings.Text = "OSD Settings";
             this.tpOSDSettings.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox13.Location = new System.Drawing.Point(440, 268);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 29;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox12.Location = new System.Drawing.Point(440, 239);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 28;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox11.Location = new System.Drawing.Point(440, 211);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 27;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox10.Location = new System.Drawing.Point(226, 265);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 26;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox9.Location = new System.Drawing.Point(226, 238);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 25;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox8.Location = new System.Drawing.Point(226, 211);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 24;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox7.Location = new System.Drawing.Point(183, 14);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 23;
-            this.pictureBox7.TabStop = false;
             // 
             // cbGoToBrowser
             // 
@@ -619,10 +476,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.pictureBox21);
-            this.groupBox1.Controls.Add(this.pictureBox20);
-            this.groupBox1.Controls.Add(this.pictureBox19);
-            this.groupBox1.Controls.Add(this.pictureBox18);
             this.groupBox1.Controls.Add(this.label23);
             this.groupBox1.Controls.Add(this.label22);
             this.groupBox1.Controls.Add(this.nupVersionX);
@@ -631,14 +484,8 @@
             this.groupBox1.Controls.Add(this.nupEnterX);
             this.groupBox1.Controls.Add(this.nupEnterY);
             this.groupBox1.Controls.Add(this.label20);
-            this.groupBox1.Controls.Add(this.pictureBox17);
             this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.nupMenuX);
-            this.groupBox1.Controls.Add(this.pictureBox6);
-            this.groupBox1.Controls.Add(this.pictureBox5);
-            this.groupBox1.Controls.Add(this.pictureBox4);
-            this.groupBox1.Controls.Add(this.pictureBox3);
-            this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Controls.Add(this.nupCursorAcceleration);
             this.groupBox1.Controls.Add(this.nupCursorVelocity);
             this.groupBox1.Controls.Add(this.nupMenuY);
@@ -655,46 +502,6 @@
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Configure Scrolling Options";
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox21.Location = new System.Drawing.Point(406, 98);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 37;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox20.Location = new System.Drawing.Point(406, 124);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 36;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox19.Location = new System.Drawing.Point(406, 72);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 35;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox18.Location = new System.Drawing.Point(406, 46);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox18.TabIndex = 34;
-            this.pictureBox18.TabStop = false;
             // 
             // label23
             // 
@@ -824,16 +631,6 @@
             this.label20.TabIndex = 26;
             this.label20.Text = "Enter X:";
             // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox17.Location = new System.Drawing.Point(191, 72);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox17.TabIndex = 25;
-            this.pictureBox17.TabStop = false;
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -860,56 +657,6 @@
             0,
             0,
             0});
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox6.Location = new System.Drawing.Point(191, 124);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 22;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox5.Location = new System.Drawing.Point(191, 98);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 21;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox4.Location = new System.Drawing.Point(191, 46);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 20;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox3.Location = new System.Drawing.Point(406, 20);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 19;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::FreeMCBootConfigurator.Properties.Resources.customer_service;
-            this.pictureBox2.Location = new System.Drawing.Point(191, 20);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
             // 
             // nupCursorAcceleration
             // 
@@ -1240,13 +987,64 @@
             this.button1.Text = "...";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // tpLKSettings
+            // 
+            this.tpLKSettings.Controls.Add(this.tabControl2);
+            this.tpLKSettings.Location = new System.Drawing.Point(4, 22);
+            this.tpLKSettings.Name = "tpLKSettings";
+            this.tpLKSettings.Padding = new System.Windows.Forms.Padding(3);
+            this.tpLKSettings.Size = new System.Drawing.Size(470, 297);
+            this.tpLKSettings.TabIndex = 4;
+            this.tpLKSettings.Text = "LK Settings";
+            this.tpLKSettings.UseVisualStyleBackColor = true;
+            // 
+            // tabControl2
+            // 
+            this.tabControl2.Controls.Add(this.tabPage1);
+            this.tabControl2.Controls.Add(this.tabPage2);
+            this.tabControl2.Controls.Add(this.tabPage3);
+            this.tabControl2.Location = new System.Drawing.Point(6, 6);
+            this.tabControl2.Name = "tabControl2";
+            this.tabControl2.SelectedIndex = 0;
+            this.tabControl2.Size = new System.Drawing.Size(458, 285);
+            this.tabControl2.TabIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(450, 259);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "E1 Launch Keys";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(450, 259);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "E2 Launch Keys";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(450, 259);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "E3 Launch Keys";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
             // btnClear
             // 
             this.btnClear.Location = new System.Drawing.Point(324, 476);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 3;
-            this.btnClear.Text = "Limpar";
+            this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             // 
             // btnSaveCNF
@@ -1255,13 +1053,13 @@
             this.btnSaveCNF.Name = "btnSaveCNF";
             this.btnSaveCNF.Size = new System.Drawing.Size(75, 23);
             this.btnSaveCNF.TabIndex = 4;
-            this.btnSaveCNF.Text = "Salvar CNF";
+            this.btnSaveCNF.Text = "Save CNF";
             this.btnSaveCNF.UseVisualStyleBackColor = true;
             this.btnSaveCNF.Click += new System.EventHandler(this.BtnSaveCNF_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::FreeMCBootConfigurator.Properties.Resources.logo;
+            this.pictureBox1.Image = global::FreeMCBootConfigurator.Properties.Resources.freemcboot_configurator_logo;
             this.pictureBox1.Location = new System.Drawing.Point(0, 27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(502, 100);
@@ -1285,7 +1083,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FreeMCBoot Configurator 1.0";
+            this.Text = "FreeMCBoot Configurator - ALPHA PREVIEW VERSION";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -1296,36 +1094,16 @@
             this.tpQuickstart.PerformLayout();
             this.tpGeral.ResumeLayout(false);
             this.tpGeral.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupPadDelay)).EndInit();
             this.tpOSDSettings.ResumeLayout(false);
             this.tpOSDSettings.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupVersionX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupVersionY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupEnterX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupEnterY)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupMenuX)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupCursorAcceleration)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupCursorVelocity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupMenuY)).EndInit();
@@ -1336,6 +1114,8 @@
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.tpLKSettings.ResumeLayout(false);
+            this.tabControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1389,28 +1169,12 @@
         private System.Windows.Forms.TabPage tpQuickstart;
         private System.Windows.Forms.ComboBox cbQuickstart;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem doaçõesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiDonationsPayPal;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiAbout;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.NumericUpDown nupMenuX;
-        private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
@@ -1424,12 +1188,7 @@
         private System.Windows.Forms.NumericUpDown nupVersionX;
         private System.Windows.Forms.NumericUpDown nupVersionY;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ComboBox cbESRPath1;
         private System.Windows.Forms.GroupBox groupBox4;
@@ -1438,6 +1197,12 @@
         private System.Windows.Forms.ComboBox cbESRPath2;
         private System.Windows.Forms.ToolStripMenuItem tsmiHelp;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
+        private System.Windows.Forms.TabPage tpLKSettings;
+        private System.Windows.Forms.TabControl tabControl2;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Label label23;
     }
 }
 
