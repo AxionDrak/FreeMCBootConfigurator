@@ -98,10 +98,18 @@ namespace FreeMCBootConfigurator
                 /*Através do objeto streamW acessamos o método WriteLine e passamos os textos que queremos gravar.
                  * 
                  */
-                streamW.WriteLine("CNF_version = " + _CNFversion +
+                streamW.WriteLine("# ----------------------------------------\r\n" +
+                    "# Free MCBoot Config File\r\n" +
+                    "# must be in mc?:/SYS-CONF/FREEMCB.CNF or mass:/FREEMCB.CNF\r\n" +
+                    "# ----------------------------------------\r\n" +
+                    "CNF_version = " + _CNFversion +
+                    "\r\n# ----------------------------------------" +
                     "\r\nDebug_Screen = " + _debub +
                     "\r\nFastBoot = " + _fastBoot +
                     "\r\npad_delay = " + _nupPadDelay +
+                    "\r\n# ----------------------------------------\r\n" +
+                    "# OSDSYS Settings\r\n" +
+                    "# ----------------------------------------" +
                     "\r\nhacked_OSDSYS = " + _hacked_OSDSYS +
                     "\r\nOSDSYS_video_mode = " + _vmode + 
                     "\r\nOSDSYS_Skip_Disc = " + 
@@ -120,10 +128,23 @@ namespace FreeMCBootConfigurator
                     "\r\nOSDSYS_cursor_acceleration = " +
                     "\r\nOSDSYS_num_displayed_items = " +
                     "\r\nOSDSYS_Skip_MC = " + _skipMC +
-                    "\r\nOSDSYS_Skip_HDD = " + _skipHDD);
+                    "\r\nOSDSYS_Skip_HDD = " + _skipHDD +
+                    "\r\n# ----------------------------------------\r\n" +
+                    "# Control Shortcuts\r\n" +
+                    "# ----------------------------------------");
+
+
+            
+
+
+
+
+
+
+
 
                     //+ "elf.Replace(" ", "") + ";1" + "\r\n" + "VER = " + version.Replace(" ", "") + "\r\n" + "VMODE = " + region + "\r\n" + "HDDUNITPOWER = " + hddunit);
-                    streamW.Close();
+                streamW.Close();
                     // Exibe uma mensagem informando que os dados foram gravados.
                     //MessageBox.Show("Arquivo SYSTEM.CNF gravado com sucesso!", "AVISO!");
 
@@ -133,8 +154,11 @@ namespace FreeMCBootConfigurator
 
         private void TsmiHelp_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Function not implemented!", "NOTICE!");
+            /*
             string _curDir = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory.ToString());
             Help.ShowHelp(this, "file://" + _curDir + "\\zrc.chm");
+            */
         }
 
         private void BtnSaveCNF_Click(object sender, EventArgs e)
@@ -148,6 +172,11 @@ namespace FreeMCBootConfigurator
                         cbSkipMC.SelectedIndex.ToString(), 
                         cbSkipHDD.SelectedIndex.ToString());
                
+        }
+
+        private void TsmiAbout_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Function not implemented!", "NOTICE!");
         }
     }
 }
