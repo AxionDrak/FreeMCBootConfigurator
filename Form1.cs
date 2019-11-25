@@ -44,6 +44,11 @@ namespace FreeMCBootConfigurator
             cbESRPath1.SelectedIndex = 0;
             cbESRPath2.SelectedIndex = 2;
             cbESRPath3.SelectedIndex = 2;
+            // E1 Launch Keys
+            cbE1Auto.SelectedIndex = 0;
+
+
+
         }
 
         private void TsmiExit_Click(object sender, EventArgs e)
@@ -177,6 +182,19 @@ namespace FreeMCBootConfigurator
         private void TsmiAbout_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Function not implemented!", "NOTICE!");
+        }
+
+        private void CbE1Auto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(cbE1Auto.SelectedIndex == 0 || cbE1Auto.SelectedIndex == 1 || cbE1Auto.SelectedIndex == 2)
+            {
+                txtE1Auto.Text = null;
+                txtE1Auto.Enabled = false;                
+            }
+            else
+            {
+                txtE1Auto.Enabled = true;
+            }
         }
     }
 }
