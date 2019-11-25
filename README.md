@@ -1,5 +1,4 @@
 # Free McBoot Configurator
---------------------------
 FREEMCB.CNF file creation software for Free Mc Boot.
 
 ### ATTENTION!!!
