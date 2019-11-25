@@ -80,16 +80,43 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logo.png" />
+    <None Include="Resources\playstation-cross-dark-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\customer-service.png" />
+    <None Include="Resources\playstation-circle-dark-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\question.png" />
+    <None Include="Resources\playstation-square-dark-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\paypal.png" />
+    <None Include="Resources\playstation-triangle-dark-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freemcboot-configurator-logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
