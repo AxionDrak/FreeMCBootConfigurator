@@ -1,4 +1,7 @@
 # Free McBoot Configurator
+
+[![Build status](https://ci.appveyor.com/api/projects/status/5ol16hgp9c63u2sx/branch/master?svg=true)](https://ci.appveyor.com/project/laetemn/freemcbootconfigurator/branch/master)
+
 FREEMCB.CNF file creation software for Free Mc Boot.
 
 ### ATTENTION!!!
