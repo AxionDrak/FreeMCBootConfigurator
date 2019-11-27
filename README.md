@@ -1,9 +1,7 @@
 # Free McBoot Configurator
 
 [![GNU License](http://img.shields.io/:license-gnu-blue.svg)](https://github.com/AxionDrak/FreeMCBootConfigurator/blob/master/LICENSE)
-
 [![GitHub release](https://img.shields.io/github/v/release/AxionDrak/FreeMCBootConfigurator)](https://github.com/AxionDrak/FreeMCBootConfigurator/releases/latest)
-
 [![Build Status](https://travis-ci.org/AxionDrak/FreeMCBootConfigurator.svg?branch=master)](https://travis-ci.org/AxionDrak/FreeMCBootConfigurator)
 [![Build status](https://ci.appveyor.com/api/projects/status/5ol16hgp9c63u2sx/branch/master?svg=true)](https://ci.appveyor.com/project/laetemn/freemcbootconfigurator/branch/master)
 
