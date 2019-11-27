@@ -9,7 +9,7 @@
 [![LAST commit](https://img.shields.io/github/last-commit/AxionDrak/FreeMCBootConfigurator/master)](https://github.com/AxionDrak/FreeMCBootConfigurator)
 [![Build Status](https://travis-ci.org/AxionDrak/FreeMCBootConfigurator.svg?branch=master)](https://travis-ci.org/AxionDrak/FreeMCBootConfigurator)
 [![Build status](https://ci.appveyor.com/api/projects/status/5ol16hgp9c63u2sx/branch/master?svg=true)](https://ci.appveyor.com/project/laetemn/freemcbootconfigurator/branch/master)
-
+[![GitHub contributors](https://img.shields.io/github/contributors/AxionDrak/FreeMCBootConfigurator)](https://github.com/AxionDrak/FreeMCBootConfigurator)
 
 Copyright 2019, Laete Meireles (a.k.a Axion Drak)   
 Licenced under GNU Free License version 3.0  
