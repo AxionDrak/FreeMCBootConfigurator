@@ -25,7 +25,7 @@ So please don't mind the badly designed spaghetti code. :P
 
 ### Language
 ------------
-* At the moment, only Brazilian Portuguese is supported (sorry :/)
+* At the moment, only English is supported (sorry :/)
 
 ### Compile
 -----------
@@ -38,4 +38,4 @@ See README for Free McBoot Configurator information.
 ### License
 -----------
 This project is released under the GNU license. If you redistribute the binary
-or source code of Free McBoot Configurator, please attach file LICENSE.TXT with your products.
+or source code of Free McBoot Configurator, please attach file LICENSE with your products.
