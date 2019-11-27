@@ -1,5 +1,6 @@
 # Free McBoot Configurator
 
+[![GNU License](http://img.shields.io/:license-gnu-blue.svg)](https://github.com/AxionDrak/PSX2CNFCreator/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/AxionDrak/FreeMCBootConfigurator.svg?branch=master)](https://travis-ci.org/AxionDrak/FreeMCBootConfigurator)
 [![Build status](https://ci.appveyor.com/api/projects/status/5ol16hgp9c63u2sx/branch/master?svg=true)](https://ci.appveyor.com/project/laetemn/freemcbootconfigurator/branch/master)
 
